@@ -137,5 +137,52 @@
     font-size: 0.8rem;
     font-weight: bold;
     color: #787885;
-
+}
+.pragraph {
+    text-align: right;
+    margin-top: 50px;
+    color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Featured products at one place */
+.featured {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.featured-container {
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+}
+.featured-image {
+    width: 404px;
+    border-radius: 7px;
+}
+.featured-content {
+    max-width: 610px;
+}
+.featured-content h2 {
+    font-size: 2.3rem;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+.featured-content p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+button {
+ background-color: #E02C6D;
+ color: #FFFFFF;
+ border: none;
+ font-size: 1rem;
+ font-weight: bold;
+ padding: 10px 24px;
+ 
 }
