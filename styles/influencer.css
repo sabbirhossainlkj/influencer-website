@@ -82,10 +82,12 @@
 .images img {
     width: 475px;
 }
+
 /* company section */
 .company {
     padding-top: 70px;
 }
+
 .company-name {
     padding: 36px 60px;
     display: flex;
@@ -94,50 +96,60 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+
 /* Popular Collection */
 .Popular {
     padding-top: 100px;
 }
+
 .collection {
     margin: 0 auto;
     max-width: 1060px;
 }
+
 .collection h3 {
     text-align: center;
     font-size: 1.75rem;
     font-weight: 700px;
     margin-bottom: 30px;
 }
+
 .collection-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 .card {
     max-width: 329px;
     border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 17px 14px;
 }
+
 .card img {
     width: 100%;
     margin-bottom: 16px;
     border-radius: 5px;
 }
+
 .card h4 {
     font-size: 1.75rem;
     color: #18191F;
     margin-bottom: 6px;
 }
+
 .dolor {
     font-size: 1.5rem;
     color: #000000;
 }
+
 .card {
     font-size: 0.8rem;
     font-weight: bold;
     color: #787885;
 }
+
 .pragraph {
     text-align: right;
     margin-top: 50px;
@@ -145,11 +157,13 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
 /* Featured products at one place */
 .featured {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .featured-container {
     display: flex;
     max-width: 1110px;
@@ -158,18 +172,22 @@
     justify-content: space-between;
     gap: 96px;
 }
+
 .featured-image {
     width: 404px;
     border-radius: 7px;
 }
+
 .featured-content {
     max-width: 610px;
 }
+
 .featured-content h2 {
     font-size: 2.3rem;
     font-weight: 600px;
     margin-bottom: 16px;
 }
+
 .featured-content p {
     font-size: 1rem;
     font-weight: bold;
@@ -177,12 +195,52 @@
     color: #6C6C6C;
     margin-bottom: 16px;
 }
+
 button {
- background-color: #E02C6D;
- color: #FFFFFF;
- border: none;
- font-size: 1rem;
- font-weight: bold;
- padding: 10px 24px;
- 
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 24px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-container {
+    width: 262px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-container h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+.footer-container p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #D9DBE1;
+    margin-bottom: 5px;
+}
+ .footer-container .small {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: #D9DBE1;
+      margin-bottom: 15px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.icon li {
+    list-style: none;
+}
+.icon li a {
+    margin-right: 16px;
 }
